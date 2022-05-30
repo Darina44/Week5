@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+        }
+
+        header {
+            text-align: center;
+            height: 10vh;
+            background-color: rgb(216, 211, 211);
+            padding-top: 2%;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100vw;
+            height: 70vh;
+        }
+
+        aside {
+            width: 40vh;
+            background-color: rgb(204, 218, 198);
+            text-align: center;
+            padding-top: 2%;
+        }
+
+        section {
+            background-color: rgb(219, 190, 137);
+            text-align: center;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 15vh;
+            background-color: rgb(216, 211, 211);
+        }
+
+        span {
+            margin: auto;
+            height: 50%;
+            background-color: white;
+            text-align: center;
+            padding-top: 2%;
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: stretch;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .part {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            background-color: rgb(240, 233, 194);
+        }
+
+        p {
+            height: 100px;
+        }
+
+        section {
+            width: 45%;
+            margin: 5px;
+        }
+
+        .sectionb {
+            width: 95%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">[Шапка страницы]</header>
+    <main class="main">
+        <div class="part">
+            <p>[Основная часть]</p>
+            <div class="div">
+                <section class="sectionu">[Еще 1]</section>
+                <section class="sectionu">[Еще 2]</section>
+                <section class="sectionb">[Еще 3]</section>
+            </div>
+        </div>
+        <aside class="aside">[Боковая область]</aside>
+    </main>
+    <footer class="footer">
+        <span>[Секция Футера 1]</span>
+        <span>[Секция Футера 2]</span>
+        <span>[Секция Футера 3]</span>
+        <span>[Секция Футера 4]</span>
+    </footer>
+</body>
+
+</html>
