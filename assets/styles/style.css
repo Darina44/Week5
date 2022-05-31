@@ -1,0 +1,53 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #191919;
+    margin: 35px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-left: -10px;
+}
+
+.firstpage {
+    display: flex;
+    flex: row nowrap;
+    color: white;
+    align-items: center;
+    font-size: 50px;
+}
+
+.firstpage_text {
+    padding: 30px;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstpage_img {
+    flex: 0 0 50%;
+}
+
+#firstimg {
+    width: 100%
+}
+
+#level {
+    font-weight: 700;
+}
+
+.firstpage_text_1 {
+    padding-top: 25%;
+}
+
+.firstpage_text_2 {
+    font-size: 0.8rem;
+    margin-top: 50px;
+}
+
+.social_img {
+    width: 4%;
+}
