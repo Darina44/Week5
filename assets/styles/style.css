@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     margin-bottom: 35px;
     margin-left: -10px;
+    color: white;
 }
 
 .firstpage {
@@ -20,19 +21,19 @@ body {
     font-size: 50px;
 }
 
-.firstpage_text {
-    padding: 30px;
-    flex: 0 0 50%;
-    display: flex;
-    flex-direction: column;
-}
-
 .firstpage_img {
     flex: 0 0 50%;
 }
 
 #firstimg {
     width: 100%
+}
+
+.firstpage_text {
+    padding: 30px;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 #level {
@@ -50,4 +51,15 @@ body {
 
 .social_img {
     width: 4%;
+}
+
+.nav {
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+
+.nav:hover {
+    color: #118DA8;
 }
