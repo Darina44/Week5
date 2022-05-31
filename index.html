@@ -8,11 +8,78 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #191919;
+            margin: 35px;
+        }
+
+        .header {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            margin-bottom: 35px;
+            margin-left: -10px;
+        }
+
+        .firstpage {
+            display: flex;
+            flex: row nowrap;
+            color: white;
+            align-items: center;
+            font-size: 50px;
+        }
+
+        .firstpage_text {
+            padding: 30px;
+            flex: 0 0 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .firstpage_img {
+            flex: 0 0 50%;
+        }
+
+        #firstimg {
+            width: 100%
+        }
+
+        #level {
+            font-weight: 700;
+        }
+    </style>
 </head>
 
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <div class="header">
+            <div>
+                <img src="assets/images/castaway.png" alt="logo">
+            </div>
+            <nav class="menu">
+                <a href="home.html">Home</a>
+                <a href="episodes.html">Episodes</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="firstpage">
+            <div class="firstpage_img">
+                <img id="firstimg" src="assets/images/firstimg.png" alt="firstimg">
+            </div>
+            <div class="firstpage_text">
+                <div class="firstpage_text_1"> Take your <br /> podcast to the <br /> next <span id="level">level</span>
+                </div>
+                <div class="firstpage_text_2">
+                    Listen on
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 
