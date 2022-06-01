@@ -7,6 +7,10 @@ body {
     height: 100vh;
 }
 
+main {
+    flex-grow: 1;
+}
+
 .header {
     flex: 0 0 auto;
     display: flex;
@@ -94,6 +98,7 @@ body {
     justify-content: flex-start;
 }
 
-main {
-    flex-grow: 1;
+.links {
+    color: white;
+    text-decoration: none;
 }
