@@ -63,3 +63,18 @@ body {
 .nav:hover {
     color: #118DA8;
 }
+
+#arrows {
+    position: absolute;
+    width: 40px;
+    top: 93px;
+    left: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.footer.social_img {}
+
