@@ -2,9 +2,13 @@ body {
     font-family: 'DM Sans', sans-serif;
     background-color: #191919;
     margin: 35px;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
 }
 
 .header {
+    flex: 0 0 auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -50,7 +54,7 @@ body {
 }
 
 .social_img {
-    width: 4%;
+    width: 15px;
 }
 
 .nav {
@@ -72,9 +76,24 @@ body {
 }
 
 .footer {
+    flex: 0 0 auto;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-bottom: 35px;
 }
 
-.footer.social_img {}
+.footer_logo {
+    margin-right: 15%;
+}
+.footer_links,
+.footer_logo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
 
+main {
+    flex-grow: 1;
+}
