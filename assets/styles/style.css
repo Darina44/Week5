@@ -15,7 +15,7 @@ body {
 
 .firstpage {
     display: flex;
-    flex: row nowrap;
+    flex-flow: row nowrap;
     color: white;
     align-items: center;
     font-size: 50px;
