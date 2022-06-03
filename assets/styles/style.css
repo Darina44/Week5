@@ -72,11 +72,15 @@ main {
     color: #118DA8;
 }
 
+.firstpage_img {
+    position: relative;
+}
+
 #arrows {
     position: absolute;
     width: 40px;
-    top: 93px;
-    left: 20px;
+    top: -15px;
+    left: -20px;
 }
 
 .footer {
